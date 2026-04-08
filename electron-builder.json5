@@ -1,0 +1,21 @@
+{
+  "appId": "com.echo.app",
+  "productName": "Echo",
+  "copyright": "Copyright © 2024",
+  "directories": {
+    "buildResources": "resources",
+    "output": "dist"
+  },
+  "files": ["out/**/*", "resources/**/*"],
+  "win": {
+    "target": [{ "target": "nsis", "arch": ["x64"] }],
+    "artifactName": "${productName} Setup ${version}.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": "always",
+    "createStartMenuShortcut": true,
+    "shortcutName": "Echo"
+  }
+}
