@@ -1,4 +1,4 @@
-# ইকো · Echo
+#Echo
 
 > **AI-powered screen assistant that follows your cursor**
 > Ask anything about your screen — in English or বাংলা — using text or voice.
