@@ -5,26 +5,26 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
-| 👁 **Floating Cursor** | Custom icon follows your mouse at all times |
-| ⌨️ **Custom Keybinding** | Set any global shortcut to activate Drishti |
-| 📸 **Screen Capture** | Automatically screenshots your screen on activation |
-| 🤖 **AI Vision** | Uses LongCat-Flash-Omni-2603 to see & understand your screen |
-| 🔤 **Bilingual** | Full English & বাংলা (Bengali) support for input & output |
-| 🎙 **Voice Input** | Speak your questions in English or Bangla |
-| 🔊 **Voice Output** | Hear AI responses read aloud via Windows TTS |
-| 📝 **Text Output** | See responses in a floating chat bubble |
-| 🎛 **Toggle Controls** | Switch text/voice output per-session from the chat panel |
-| ⚙️ **Settings Panel** | Configure everything without editing files |
-| 🔄 **Refresh Screenshot** | Ask follow-up questions with a fresh screen capture |
-| 🗂 **Chat History** | Full conversation context within a session |
+| **Floating Cursor** | Custom icon follows your mouse at all times |
+| **Custom Keybinding** | Set any global shortcut to activate Drishti |
+| **Screen Capture** | Automatically screenshots your screen on activation |
+| **AI Vision** | Uses LongCat-Flash-Omni-2603 to see & understand your screen |
+| **Bilingual** | Full English & বাংলা (Bengali) support for input & output |
+| **Voice Input** | Speak your questions in English or Bangla |
+| **Voice Output** | Hear AI responses read aloud via Windows TTS |
+| **Text Output** | See responses in a floating chat bubble |
+| **Toggle Controls** | Switch text/voice output per-session from the chat panel |
+| **Settings Panel** | Configure everything without editing files |
+| **Refresh Screenshot** | Ask follow-up questions with a fresh screen capture |
+| **Chat History** | Full conversation context within a session |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** v18+ ([nodejs.org](https://nodejs.org))
@@ -71,7 +71,7 @@ The installer `.exe` will appear in the `dist/` folder.
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 ### Activating Drishti
 1. Press your activation shortcut (default: **`Ctrl+Shift+D`**)
@@ -80,14 +80,14 @@ The installer `.exe` will appear in the `dist/` folder.
 
 ### Asking Questions
 - **Type** your question in English or বাংলা and press **Enter**
-- **Voice**: Click 🎙 to speak, click ⏹ to stop
-- **Refresh screenshot**: Click 📸 to capture the current screen state before sending
+- **Voice**: Click to speak, click to stop
+- **Refresh screenshot**: Click to capture the current screen state before sending
 
 ### Output Controls (per-session)
 | Button | Action |
 |---|---|
-| 📝 | Toggle text response display |
-| 🔊 | Toggle voice (TTS) reading aloud |
+| Toggle text response display |
+| Toggle voice (TTS) reading aloud |
 
 Both can be active at the same time.
 
@@ -99,19 +99,19 @@ Both can be active at the same time.
 
 ### Closing Drishti
 - Press **`Escape`**
-- Click the **✕** button
+- Click the X button
 - Click anywhere outside the chat panel (the dim backdrop)
 
 ---
 
-## ⚙️ Settings
+## Settings
 
-Access via: **⚙️ button in chat panel** or **System Tray → Settings**
+Access via: button in chat panel or **System Tray → Settings**
 
 | Setting | Description |
 |---|---|
 | **LongCat API Key** | Your API key for the AI backend |
-| **Activation Shortcut** | Click "⌨ Record" and press your desired combo |
+| **Activation Shortcut** | Click "Record" and press your desired combo |
 | **Default Language** | Auto / English / বাংলা |
 | **Default Output Mode** | Text, Voice, or Both |
 | **Custom Cursor Icon** | Upload your own PNG/SVG image |
@@ -120,15 +120,15 @@ Settings are saved automatically to `%APPDATA%/drishti/drishti-settings.json`.
 
 ---
 
-## 🖼 Custom Cursor Icon
+## Custom Cursor Icon
 
 Drishti uses a built-in **glowing eye SVG** (the দৃষ্টি symbol) by default.
 
 To use your own icon:
 
 **Option A — In-App (recommended)**
-1. Open Settings (⚙️)
-2. Under "Custom Cursor Icon", click **📁 Choose Image**
+1. Open Settings
+2. Under "Custom Cursor Icon", click **Choose Image**
 3. Select any PNG, JPG, SVG, or GIF
 
 **Option B — Resource File**
@@ -136,7 +136,7 @@ Place your icon at `resources/cursor.png` (36–64px square works best).
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 drishti/
@@ -174,7 +174,7 @@ drishti/
 
 ---
 
-## 🤖 AI Models Used
+## AI Models Used
 
 | Model | Purpose |
 |---|---|
@@ -187,7 +187,7 @@ API: [longcat.chat/platform/docs](https://longcat.chat/platform/docs)
 
 ---
 
-## 🎙 Voice Technology
+## Voice Technology
 
 | Direction | Technology | Languages |
 |---|---|---|
@@ -199,7 +199,7 @@ API: [longcat.chat/platform/docs](https://longcat.chat/platform/docs)
 
 ---
 
-## 🪲 Troubleshooting
+## Troubleshooting
 
 **Drishti doesn't activate**
 - Check the activation shortcut isn't used by another app
