@@ -1,4 +1,4 @@
-# দৃষ্টি · Drishti
+# ইকো · Echo
 
 > **AI-powered screen assistant that follows your cursor**
 > Ask anything about your screen — in English or বাংলা — using text or voice.
@@ -10,7 +10,7 @@
 | Feature | Details |
 |---|---|
 | **Floating Cursor** | Custom icon follows your mouse at all times |
-| **Custom Keybinding** | Set any global shortcut to activate Drishti |
+| **Custom Keybinding** | Set any global shortcut to activate Echo |
 | **Screen Capture** | Automatically screenshots your screen on activation |
 | **AI Vision** | Uses LongCat-Flash-Omni-2603 to see & understand your screen |
 | **Bilingual** | Full English & বাংলা (Bengali) support for input & output |
@@ -36,7 +36,7 @@
 
 ```bash
 git clone <your-repo-url>
-cd drishti
+cd echo
 npm install
 ```
 
@@ -59,7 +59,7 @@ npm run dev
 ```
 
 The app starts silently in your system tray.  
-Press **`Ctrl+Shift+D`** (default) to activate Drishti.
+Press **`Ctrl+Shift+D`** (default) to activate Echo.
 
 ### 4 — Build Windows Installer
 
@@ -73,9 +73,9 @@ The installer `.exe` will appear in the `dist/` folder.
 
 ## How to Use
 
-### Activating Drishti
+### Activating Echo
 1. Press your activation shortcut (default: **`Ctrl+Shift+D`**)
-2. Drishti captures your screen instantly
+2. Echo captures your screen instantly
 3. A chat panel appears near your cursor
 
 ### Asking Questions
@@ -95,9 +95,9 @@ Both can be active at the same time.
 - **EN** → English voice recognition + English TTS voice
 - **বাং** → Bengali voice recognition + Bengali TTS voice
 
-> Auto-detect (default): Drishti detects Bengali Unicode automatically.
+> Auto-detect (default): Echo detects Bengali Unicode automatically.
 
-### Closing Drishti
+### Closing Echo
 - Press **`Escape`**
 - Click the X button
 - Click anywhere outside the chat panel (the dim backdrop)
@@ -116,13 +116,13 @@ Access via: button in chat panel or **System Tray → Settings**
 | **Default Output Mode** | Text, Voice, or Both |
 | **Custom Cursor Icon** | Upload your own PNG/SVG image |
 
-Settings are saved automatically to `%APPDATA%/drishti/drishti-settings.json`.
+Settings are saved automatically to `%APPDATA%/echo/echo-settings.json`.
 
 ---
 
 ## Custom Cursor Icon
 
-Drishti uses a built-in **glowing eye SVG** (the দৃষ্টি symbol) by default.
+Echo uses a built-in **glowing eye SVG** (the ইকো symbol) by default.
 
 To use your own icon:
 
@@ -139,7 +139,7 @@ Place your icon at `resources/cursor.png` (36–64px square works best).
 ## Project Structure
 
 ```
-drishti/
+echo/
 ├── src/
 │   ├── main/
 │   │   └── index.ts          # Electron main process
@@ -191,8 +191,8 @@ API: [longcat.chat/platform/docs](https://longcat.chat/platform/docs)
 
 | Direction | Technology | Languages |
 |---|---|---|
-| **Input** (you → Drishti) | Web Speech API (SpeechRecognition) | en-US, bn-BD |
-| **Output** (Drishti → you) | Web Speech API (speechSynthesis) | en-US, bn-BD/bn-IN |
+| **Input** (you → Echo) | Web Speech API (SpeechRecognition) | en-US, bn-BD |
+| **Output** (Echo → you) | Web Speech API (speechSynthesis) | en-US, bn-BD/bn-IN |
 
 > Bengali TTS requires a Bengali voice installed on Windows.
 > Install from: **Settings → Time & Language → Speech → Add voices → বাংলা (Bangladesh)**
@@ -201,7 +201,7 @@ API: [longcat.chat/platform/docs](https://longcat.chat/platform/docs)
 
 ## Troubleshooting
 
-**Drishti doesn't activate**
+**Echo doesn't activate**
 - Check the activation shortcut isn't used by another app
 - Try changing the shortcut in Settings
 - Restart the app after changing shortcuts
@@ -233,4 +233,4 @@ MIT — build freely, ship boldly.
 
 ---
 
-*দৃষ্টি means "vision" or "sight" in Bengali — because Drishti sees what you see.*
+*ইকো means "Echo" — AI that hears you and sees for you.*
